@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+
+Disallow: /cgi-bin/
+Disallow: /backup/
+Disallow: /tmp/
+
+Disallow: /api/
+
+Disallow: /*?
+Disallow: /*&
+
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://xedrum.com/sitemap.xml
