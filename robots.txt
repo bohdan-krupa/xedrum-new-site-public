@@ -1,21 +1,14 @@
-User-agent: *
+User-Agent: *
 Allow: /
-
-
 Disallow: /cgi-bin/
 Disallow: /backup/
 Disallow: /tmp/
-
 Disallow: /api/
-
 Disallow: /*?
 Disallow: /*&
 
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
+User-Agent: OAI-SearchBot
+User-Agent: PerplexityBot
 Allow: /
 
 Sitemap: https://xedrum.com/sitemap.xml
