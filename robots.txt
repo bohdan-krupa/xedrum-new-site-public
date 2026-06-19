@@ -1,6 +1,7 @@
 User-Agent: *
 Allow: /
 Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
 Disallow: /backup/
 Disallow: /tmp/
 Disallow: /api/
